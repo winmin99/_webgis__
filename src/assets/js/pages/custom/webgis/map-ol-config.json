@@ -1,0 +1,1521 @@
+{
+  "espg": {
+    "central": [
+      "EPSG:5186",
+      "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+    ],
+    "east": [
+      "EPSG:5187",
+      "+proj=tmerc +lat_0=38 +lon_0=129 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+    ],
+    "eastsea": [
+      "EPSG:5188",
+      "+proj=tmerc +lat_0=38 +lon_0=131 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+    ],
+    "west": [
+      "EPSG:5185",
+      "+proj=tmerc +lat_0=38 +lon_0=125 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+    ],
+    "wgs84": [
+      "EPSG:42310",
+      "+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs"
+    ]
+  },
+  "map": {
+    "baseLayers": {
+      "상수": [
+        "viw_wtl_puri_as",
+        "wtl_taper_ps",
+        "wtl_cap_ps",
+        "wtl_wspipe_ls",
+        "viw_wtl_pipe_lm",
+        "viw_wtl_sply_ls",
+        "viw_wtl_manh_ps",
+        "viw_wtl_scvst_ps",
+        "viw_wtl_meta_ps",
+        "viw_wtl_flow_ps",
+        "viw_wtl_fire_ps",
+        "viw_wtl_gain_ps",
+        "viw_wtl_valv_ps",
+        "viw_wtl_serv_ps",
+        "viw_wtl_pres_ps",
+        "wtl_userlabel_ps"
+      ],
+      "하수": [
+        "swl_pipe_as",
+        "viw_swl_dran_ps",
+        "viw_swl_spew_ps",
+        "swl_hmpipe_ls",
+        "viw_swl_pipe_lm",
+        "viw_swl_conn_ls",
+        "viw_swl_hmconn_ls",
+        "viw_swl_pump_ps",
+        "viw_swl_hmspot_ps",
+        "viw_swl_spot_ps",
+        "viw_swl_manh_ps"
+      ]
+    },
+    "extent": {
+      "gyeongju_a": [
+        100000,
+        260000,
+        330000,
+        470000
+      ],
+      "seongju_ab": [
+        60000,
+        170000,
+        300000,
+        710000
+      ],
+      "yeongju_a": [
+        108147.36663105823,
+        210531.46593547147,
+        261808.90527065843,
+        671516.081854272
+      ]
+    },
+    "home": {
+      "gyeongju_a": [
+        220303.375686,
+        362113.598201
+      ],
+      "seongju_ab": [
+        135280.636482,
+        369305.827621
+      ],
+      "yeongju_a": [
+        166441.723353,
+        467507.786735
+      ]
+    },
+    "origin": {
+      "gyeongju_a": [
+        108147.36663105823,
+        671516.081854272
+      ],
+      "seongju_ab": [
+        108147.36663105823,
+        671516.081854272
+      ],
+      "yeongju_a": [
+        108147.36663105823,
+        671516.081854272
+      ]
+    },
+    "resolutions": [
+      600.2403853109382,
+      300.1201926554691,
+      150.06009632773456,
+      75.03004816386728,
+      37.51502408193364,
+      18.75751204096682,
+      9.37875602048341,
+      4.689378010241705,
+      2.3446890051208524,
+      1.1723445025604262,
+      0.5861722512802131,
+      0.2930861256401066,
+      0.1465430628200533
+    ],
+    "tilematrixset": [
+      "ESPG:5187:0",
+      "ESPG:5187:1",
+      "ESPG:5187:2",
+      "ESPG:5187:3",
+      "ESPG:5187:4",
+      "ESPG:5187:5",
+      "ESPG:5187:6",
+      "ESPG:5187:7",
+      "ESPG:5187:8",
+      "ESPG:5187:9",
+      "ESPG:5187:10",
+      "ESPG:5187:11",
+      "ESPG:5187:12"
+    ]
+  },
+  "property": {
+    "geo_line_as": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 15,
+      "propertyName": [
+        "geom"
+      ]
+    },
+    "n3a_a0010000": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 15,
+      "propertyName": [
+        "geom"
+      ]
+    },
+    "n3a_b0010000": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 15,
+      "propertyName": [
+        "geom"
+      ]
+    },
+    "n3p_f0020000": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 11,
+      "propertyName": [
+        "geom"
+      ]
+    },
+    "swl_hmpipe_ls": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 14,
+      "propertyName": [
+        "geom"
+      ]
+    },
+    "swl_pipe_as": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 10,
+      "propertyName": [
+        "geom"
+      ]
+    },
+    "viw_swl_aodp_as": {
+      "childColumn": "처리분구명",
+      "childElementId": "kt-notification-section-m",
+      "childTable": "viw_swl_dodp_as",
+      "column": "처리구역명",
+      "elementId": "kt-notification-section-l",
+      "isTile": false,
+      "maxZ": 10,
+      "minZ": 6,
+      "propertyName": [
+        "geom",
+        "관리번호",
+        "처리구역명"
+      ]
+    },
+    "viw_swl_aodr_as": {
+      "childColumn": "배수분구명",
+      "childElementId": "kt-notification-section-m",
+      "childTable": "viw_swl_dodr_as",
+      "column": "배수구역명",
+      "elementId": "kt-notification-section-l",
+      "isTile": false,
+      "maxZ": 10,
+      "minZ": 6,
+      "propertyName": [
+        "geom",
+        "관리번호",
+        "배수구역명"
+      ]
+    },
+    "viw_swl_conn_ls": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 10,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호"
+      ]
+    },
+    "viw_swl_dodp_as": {
+      "childColumn": null,
+      "childElementId": null,
+      "childTable": null,
+      "column": "처리분구명",
+      "elementId": "kt-notification-section-m",
+      "isTile": false,
+      "maxZ": 10,
+      "minZ": 6,
+      "propertyName": [
+        "geom",
+        "관리번호",
+        "처리분구명"
+      ]
+    },
+    "viw_swl_dodr_as": {
+      "childColumn": null,
+      "childElementId": null,
+      "childTable": null,
+      "column": "배수분구명",
+      "elementId": "kt-notification-section-m",
+      "isTile": false,
+      "maxZ": 10,
+      "minZ": 6,
+      "propertyName": [
+        "geom",
+        "관리번호",
+        "배수분구명"
+      ]
+    },
+    "viw_swl_dran_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 7,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "하수처리장명"
+      ]
+    },
+    "viw_swl_hmconn_ls": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 14,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "공사번호"
+      ]
+    },
+    "viw_swl_hmspot_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 14,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "방향각",
+        "공사번호"
+      ]
+    },
+    "viw_swl_manh_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 14,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "방향각"
+      ]
+    },
+    "viw_swl_pipe_lm": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 10,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "관라벨"
+      ]
+    },
+    "viw_swl_pump_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 9,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "하수펌프장명",
+        "방향각"
+      ]
+    },
+    "viw_swl_spew_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 10,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "방향각"
+      ]
+    },
+    "viw_swl_spot_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 14,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "방향각"
+      ]
+    },
+    "viw_swl_vent_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 13,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호"
+      ]
+    },
+    "viw_wtl_fire_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 13,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "방향각"
+      ]
+    },
+    "viw_wtl_flow_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 9,
+      "propertyName": [
+        "geom",
+        "관리번호",
+        "방향각"
+      ]
+    },
+    "viw_wtl_gain_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 9,
+      "propertyName": [
+        "geom"
+      ]
+    },
+    "viw_wtl_manh_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 13,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "방향각"
+      ]
+    },
+    "viw_wtl_meta_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 14,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호"
+      ]
+    },
+    "viw_wtl_pipe_lm": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 9,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "관라벨",
+        "폐관일자"
+      ]
+    },
+    "viw_wtl_pres_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 9,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "가압장명"
+      ]
+    },
+    "viw_wtl_puri_as": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 7,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "정수장명"
+      ]
+    },
+    "viw_wtl_rsrv_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 7,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호"
+      ]
+    },
+    "viw_wtl_scvst_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 13,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "방향각"
+      ]
+    },
+    "viw_wtl_serv_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 7,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "배수지명"
+      ]
+    },
+    "viw_wtl_sply_ls": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 14,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호"
+      ]
+    },
+    "viw_wtl_valv_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 13,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "방향각",
+        "개폐여부"
+      ]
+    },
+    "viw_wtl_wtsa_as": {
+      "childColumn": "급수분구명",
+      "childElementId": "kt-notification-section-m",
+      "childTable": "viw_wtl_wtssa_as",
+      "column": "급수구역명",
+      "elementId": "kt-notification-section-l",
+      "isTile": false,
+      "maxZ": 13,
+      "minZ": 6,
+      "propertyName": [
+        "geom",
+        "관리번호",
+        "급수구역명"
+      ],
+      "selZ": 7.3
+    },
+    "viw_wtl_wtsba_as": {
+      "childColumn": null,
+      "childElementId": null,
+      "childTable": null,
+      "column": "급수블럭명",
+      "elementId": "kt-notification-section-s",
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 6,
+      "propertyName": [
+        "geom",
+        "관리번호",
+        "급수블럭명"
+      ],
+      "selZ": 10.3
+    },
+    "viw_wtl_wtssa_as": {
+      "childColumn": "급수블럭명",
+      "childElementId": "kt-notification-section-s",
+      "childTable": "viw_wtl_wtsba_as",
+      "column": "급수분구명",
+      "elementId": "kt-notification-section-m",
+      "isTile": false,
+      "maxZ": 15,
+      "minZ": 6,
+      "propertyName": [
+        "geom",
+        "관리번호",
+        "급수분구명"
+      ],
+      "selZ": 8.3
+    },
+    "viw_wtt_wutl_ht_re": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 11,
+      "propertyName": [
+        "geom",
+        "레이어",
+        "관리번호",
+        "시설물구분"
+      ]
+    },
+    "wtl_cap_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 11,
+      "propertyName": [
+        "geom",
+        "방향각"
+      ]
+    },
+    "wtl_taper_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 13,
+      "propertyName": [
+        "geom",
+        "방향각"
+      ]
+    },
+    "wtl_userlabel_ps": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 9,
+      "propertyName": [
+        "geom",
+        "방향각",
+        "주기명"
+      ]
+    },
+    "wtl_wspipe_ls": {
+      "isTile": false,
+      "maxZ": 19,
+      "minZ": 9,
+      "propertyName": [
+        "geom"
+      ]
+    }
+  },
+  "style": {
+    "line": {
+      "swl_hmpipe_ls": {
+        "stroke": {
+          "color": "#4a148c66",
+          "dash": null,
+          "width": 0.5
+        }
+      },
+      "wtl_wspipe_ls": {
+        "stroke": {
+          "color": "#ff79ff",
+          "dash": null,
+          "width": 3.5
+        }
+      },
+      "가정급수관": {
+        "stroke": {
+          "color": "#18ffff",
+          "dash": null,
+          "width": 2
+        }
+      },
+      "가정연결관": {
+        "stroke": {
+          "color": "#ff79ff",
+          "dash": null,
+          "width": 1
+        }
+      },
+      "공업용수관": {
+        "stroke": {
+          "color": "#cc6666",
+          "dash": null,
+          "width": 3
+        }
+      },
+      "광역관": {
+        "stroke": {
+          "color": "#ff79ff",
+          "dash": null,
+          "width": 3.5
+        }
+      },
+      "급수관": {
+        "stroke": {
+          "color": "#00b0ff",
+          "dash": null,
+          "width": 2
+        }
+      },
+      "도수관": {
+        "stroke": {
+          "color": "#ff9100",
+          "dash": null,
+          "width": 2
+        }
+      },
+      "배수관": {
+        "stroke": {
+          "color": "#0045ff",
+          "dash": null,
+          "width": 1.5
+        }
+      },
+      "소방관": {
+        "stroke": {
+          "color": "#ff3c00",
+          "dash": null,
+          "width": 2
+        }
+      },
+      "송수관": {
+        "stroke": {
+          "color": "#aa00ff",
+          "dash": null,
+          "width": 2
+        }
+      },
+      "연결관": {
+        "stroke": {
+          "color": "#ff9100",
+          "dash": null,
+          "width": 1
+        }
+      },
+      "오수관": {
+        "stroke": {
+          "color": "#ff5252",
+          "dash": null,
+          "width": 1
+        }
+      },
+      "우수관": {
+        "stroke": {
+          "color": "#76ff03",
+          "dash": null,
+          "width": 1.5
+        }
+      },
+      "차집관": {
+        "stroke": {
+          "color": "#c2185b",
+          "dash": null,
+          "width": 1
+        }
+      },
+      "취수관": {
+        "stroke": {
+          "color": "#ff7e00",
+          "dash": null,
+          "width": 2
+        }
+      },
+      "합류관": {
+        "stroke": {
+          "color": "#bf360c",
+          "dash": null,
+          "width": 1
+        }
+      }
+    },
+    "point": {
+      "n3p_f0020000": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "EP001"
+        },
+        "text": {
+          "color": "#dd2c00",
+          "font": "bold 0.95rem 맑은 고딕",
+          "offsetY": 15,
+          "stroke": "#eeff41",
+          "width": 3
+        }
+      },
+      "viw_wtl_flow_ps": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA117_2"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "viw_wtl_gain_ps": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA206"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "wtl_cap_ps": {
+        "image": {
+          "opacity": 1,
+          "scale": 0.8,
+          "src": "SA004"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "wtl_taper_ps": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA005"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "wtl_userlabel_ps": {
+        "image": {
+          "opacity": 1,
+          "scale": 1.2,
+          "src": "EP001"
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.1rem 맑은 고딕",
+          "offsetY": 20,
+          "stroke": "#ffffff",
+          "width": 3
+        }
+      },
+      "가압장": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA112"
+        },
+        "text": {
+          "color": "#fff",
+          "font": "1.1rem 맑은 고딕",
+          "offsetY": 22.5,
+          "stroke": "#e65100",
+          "width": 3
+        }
+      },
+      "가정오수받이": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB1022"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "감압변": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA204"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "급수전": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA122"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "급수탑": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA118"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "배기변": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA203"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "배수지": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA114"
+        },
+        "text": {
+          "color": "#fff",
+          "font": "1.1rem 맑은 고딕",
+          "offsetY": 22.5,
+          "stroke": "#e65100",
+          "width": 3
+        }
+      },
+      "보수공사": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "RE003"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "블럭유량계": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA117_BLOCK"
+        },
+        "text": {
+          "color": "#fff",
+          "font": "1.1rem 맑은 고딕",
+          "offsetY": 22.5,
+          "stroke": "#e65100",
+          "width": 3
+        }
+      },
+      "상수맨홀": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA100"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "소화전": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA119"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "스케일부스터": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA211_SCV"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "안전변": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA205"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "역지변": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA201"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "오수맨홀": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB101_0"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "오수받이": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB1022"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "우수맨홀": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB101_1"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "우수받이": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB102"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "유량계": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA117_2"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "이토변": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA202"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "제수변": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA199"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "제수변_반개": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA199_HALF"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "제수변_폐": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA199_CLOSED"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "지수전": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA209"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "지수전_반개": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA209_HALF"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "지수전_폐": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SA209_CLOSED"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "차집맨홀": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB101_2"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "토구": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB104"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "펌프시설": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB210"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "하수펌프장": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "SB210"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "합류맨홀": {
+        "image": {
+          "opacity": 1.0,
+          "scale": 1,
+          "src": "SB101_3"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      },
+      "환기구": {
+        "image": {
+          "opacity": 1,
+          "scale": 1,
+          "src": "HA"
+        },
+        "text": {
+          "color": null,
+          "font": null,
+          "offsetY": null,
+          "stroke": null,
+          "width": null
+        }
+      }
+    },
+    "polygon": {
+      "geo_line_as": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#0000a0",
+          "dash": null,
+          "width": 0.1
+        },
+        "text": {
+          "color": "#0000a0",
+          "font": "0.8rem Noto Sans KR",
+          "stroke": "#707070",
+          "width": 0
+        }
+      },
+      "n3a_a0010000": {
+        "fill": {
+          "color": "#fffccb"
+        },
+        "stroke": {
+          "color": "#fffccb",
+          "dash": null,
+          "width": 0.1
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "0.95rem Noto Sans KR",
+          "stroke": "#fff",
+          "width": 1
+        }
+      },
+      "n3a_b0010000": {
+        "fill": {
+          "color": "#f9f8f4"
+        },
+        "stroke": {
+          "color": "#505050",
+          "dash": null,
+          "width": 0.2
+        },
+        "text": {
+          "color": "#707070",
+          "font": "0.95rem Noto Sans KR",
+          "stroke": "#707070",
+          "width": 0
+        }
+      },
+      "swl_pipe_as": {
+        "fill": {
+          "color": "#00c6c67f"
+        },
+        "stroke": {
+          "color": "#00c6c67f",
+          "dash": null,
+          "width": 1
+        },
+        "text": {
+          "color": "#ffffff00",
+          "font": "0.95rem Noto Sans KR",
+          "stroke": "#ffffff00",
+          "width": 0
+        }
+      },
+      "viw_swl_aodp_as": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.4rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "viw_swl_aodr_as": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.4rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "viw_swl_dodp_as": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.0rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "viw_swl_dodr_as": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.4rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "viw_wtl_puri_as": {
+        "fill": {
+          "color": "#00d88866"
+        },
+        "stroke": {
+          "color": "#e65100",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#000000",
+          "font": "1.4rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "viw_wtl_puri_ps": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.4rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "viw_wtl_wtsa_as": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.4rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "viw_wtl_wtsba_as": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.2rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "viw_wtl_wtssa_as": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.2rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 6
+        }
+      },
+      "가압장": {
+        "fill": {
+          "color": "#2677ff66"
+        },
+        "stroke": {
+          "color": "#2677ff",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.0rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 3
+        }
+      },
+      "배수지": {
+        "fill": {
+          "color": "#00e67666"
+        },
+        "stroke": {
+          "color": "#00e676",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.0rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 3
+        }
+      },
+      "정수장": {
+        "fill": {
+          "color": "#7e57c266"
+        },
+        "stroke": {
+          "color": "#7e57c2",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.0rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 3
+        }
+      },
+      "하수처리장": {
+        "fill": {
+          "color": "#ffffff00"
+        },
+        "stroke": {
+          "color": "#ff1744",
+          "dash": null,
+          "width": 3
+        },
+        "text": {
+          "color": "#ff0000",
+          "font": "1.1rem 맑은 고딕",
+          "stroke": "#fff",
+          "width": 4
+        }
+      }
+    }
+  }
+}

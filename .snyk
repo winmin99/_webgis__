@@ -1,0 +1,297 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-KINDOF-537849:
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > snapdragon-node > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > snapdragon-node > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.422Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > snapdragon-node > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.423Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > braces > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > snapdragon-node > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > snapdragon-node > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > snapdragon-node > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > snapdragon-node > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.424Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > snapdragon-node > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > snapdragon-node > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > expand-brackets > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > expand-brackets > to-regex > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > expand-brackets > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.425Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > expand-brackets > to-regex > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > braces > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > braces > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > expand-brackets > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > expand-brackets > to-regex > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > define-property > is-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > define-property > is-descriptor > is-accessor-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+    - jkanban > npm-watch > nodemon > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > define-property > is-descriptor > is-data-descriptor > kind-of:
+        reason: None given
+        expires: '2020-02-28T02:07:24.426Z'
+patch: {}

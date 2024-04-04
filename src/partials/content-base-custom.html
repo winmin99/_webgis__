@@ -1,0 +1,43 @@
+<div id="map-container" class="parent" style="height: 100%;">
+  <div
+    style="
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      float: left;
+    "
+  >
+    <div
+      id="map-kakao"
+      class="child"
+      style="
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 0;
+      "
+    ></div>
+    <div
+      id="map-openlayers"
+      class="child"
+      style="
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 1;
+        background: transparent;
+        touch-action: none;
+      "
+    ></div>
+    <div style="display: none;">
+      <!-- Popup -->
+      <a id="popup" data-toggle="kt-popover" data-trigger="focus"></a>
+    </div>
+  </div>
+  <div id="rvWrapper" class="child">
+    <div id="map-kakao-roadview" style="height: 100%;"></div>
+  </div>
+</div>

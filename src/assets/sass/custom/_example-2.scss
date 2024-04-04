@@ -1,0 +1,110 @@
+//
+// Custom Example 2 Style
+// Here you can put your custom sass code, use global SASS mixings and variables to override the theme or add new styles according to your requirements.
+// Most of the changes can be achieved via global or layout level sass variable changes.
+//
+
+.addr {
+  margin: 0;
+  //font-size: medium;
+}
+
+.kt-quick-search__item-addr-title-selected {
+  font-weight: bold;
+  text-underline: red;
+  color: red;
+}
+
+.kt-sticky-toolbar__item button {
+  padding: 0.4rem 0.6rem;
+  align-content: center;
+  align-self: center;
+
+  i {
+    padding: 0;
+  }
+}
+
+.kt-header__topbar-user-selected {
+  background-color: rgba(85, 120, 235, 0.2);
+  font-weight: bold;
+}
+
+.kt-notification .kt-notification__item-compact {
+  padding: 0.75rem 1.5rem;
+}
+
+.your-class {
+  background-color: lightslategrey;
+  border-radius: 6px 6px 0 0;
+}
+
+.your-class img {
+  height: auto;
+  max-width: 100%;
+  max-height: 55vh;
+  object-fit: contain;
+  border-radius: 6px 6px 0 0;
+}
+
+.kt-widget19__align * {
+  display: inline-block;
+}
+
+.flex-grow {
+  flex: 1 0 auto;
+}
+
+.carousel-inner {
+  border-radius: 4px;
+
+  .carousel-item {
+    max-height: 65vh;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.kt-quick-search .kt-quick-search__result .kt-quick-search__section {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.kt-quick-search
+  .kt-quick-search__result
+  .kt-quick-search__item
+  .kt-quick-search__item-wrapper {
+  padding-left: 0;
+  flex: 1 1 auto;
+}
+
+.kt-quick-search__item-title-addr {
+  color: #5d78ff;
+}
+
+.kt-aside-menu
+  .kt-menu__nav
+  > .kt-menu__item
+  .kt-menu__submenu
+  .kt-menu__item.kt-menu__item--active
+  > .kt-menu__link
+  .kt-menu__link-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.kt-portlet-noborder {
+  box-shadow: none;
+  background-color: #ffffff00;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.invalid-feedback {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-left: 1.6rem;
+  margin-top: 0.25rem;
+}

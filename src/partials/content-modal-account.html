@@ -1,0 +1,135 @@
+<div
+  class="modal fade"
+  id="kt_modal_account"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div
+    class="modal-dialog modal-dialog-centered modal-xl"
+    role="document"
+    style="min-width: 900px;"
+  >
+    <div class="modal-content">
+      <div class="modal-header" style="padding: 0;">
+        <div
+          class="kt-subheader kt-grid__item"
+          id="kt_subheader"
+          style="width: 100%;"
+        >
+          <div class="kt-container kt-container--fluid">
+            <div class="kt-subheader__main">
+              <h3 class="kt-subheader__title">
+                계정 관리자
+              </h3>
+              <span
+                class="kt-subheader__separator kt-subheader__separator--v"
+              ></span>
+              <div class="kt-subheader__group" id="kt_subheader_group_actions">
+                <div class="kt-subheader__desc">
+                  <span id="kt_subheader_group_selected_rows">0</span> 선택함:
+                </div>
+                <div class="btn-toolbar">
+                  <button
+                    class="btn btn-label-success btn-bold btn-sm btn-icon-h btn-font-lg"
+                    id="kt_subheader_group_actions_activate"
+                  >
+                    승인
+                  </button>
+                  <!--<button
+                    class="btn btn-label-brand btn-bold btn-sm btn-icon-h btn-font-lg"
+                    id="kt_subheader_group_actions_reset"
+                  >
+                    리셋
+                  </button>-->
+                  <div class="dropdown">
+                    <button
+                      type="button"
+                      class="btn btn-label-brand btn-bold btn-sm btn-font-lg dropdown-toggle"
+                      data-toggle="dropdown"
+                      id="dropdownMenuOffset"
+                    >
+                      변경
+                    </button>
+                    <div
+                      class="dropdown-menu"
+                      style="box-shadow: 0 0 50px 0 rgba(82, 63, 105, 0.15);"
+                      aria-labelledby="dropdownMenuOffset"
+                    >
+                      <h6 class="dropdown-header">아래에서 선택:</h6>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        id="kt_subheader_group_actions_reset"
+                        >비밀번호를 초기화</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        id="kt_subheader_group_actions_status_change_1"
+                        ><span style="color: #5d78ff;">상수도</span>과로 이동</a
+                      >
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        id="kt_subheader_group_actions_status_change_2"
+                        ><span style="color: #34bfa3;">하수도</span>과로 이동</a
+                      >
+                      <div class="dropdown-divider"></div>
+                      <a
+                        class="dropdown-item"
+                        href="#"
+                        id="kt_subheader_group_actions_deactivate"
+                        ><span class="kt-nav__link-text" style="color: #fd3995;"
+                          >계정 사용 중지</span
+                        ></a
+                      >
+                    </div>
+                  </div>
+                  <!--<button
+                    class="btn btn-label-warning btn-bold btn-sm btn-icon-h btn-font-lg"
+                    id="kt_subheader_group_actions_deactivate"
+                  >
+                    중지
+                  </button>-->
+                  <button
+                    class="btn btn-label-danger btn-bold btn-sm btn-icon-h btn-font-lg"
+                    id="kt_subheader_group_actions_delete"
+                  >
+                    삭제
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="kt-subheader__toolbar">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body" style="padding: 0;">
+        <!-- begin:: Content -->
+        <div
+          class="kt-container kt-container--fluid kt-grid__item kt-grid__item--fluid"
+        >
+          <!--begin::Portlet-->
+          <div class="kt-portlet kt-portlet--mobile kt-portlet-noborder">
+            <div class="kt-portlet__body kt-portlet__body--fit">
+              <!--begin: Datatable -->
+              <div class="kt-datatable" id="kt_apps_user_list_datatable"></div>
+              <!--end: Datatable -->
+            </div>
+          </div>
+          <!--end::Portlet-->
+        </div>
+        <!-- end:: Content -->
+      </div>
+    </div>
+  </div>
+</div>

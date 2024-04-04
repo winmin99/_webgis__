@@ -1,0 +1,163 @@
+<div
+  class="modal fade"
+  id="kt_modal_info"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+  data-backdrop="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ol-modal-title"></h5>
+        <button
+          type="button"
+          class="btn btn-outline-danger btn-sm"
+          data-dismiss="modal"
+        >
+          닫기
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row" id="kt_modal_info_row">
+          <div class="col-xl-6">
+            <div
+              class="kt-portlet kt-portlet--bordered kt-portlet--head--noborder"
+            >
+              <div class="kt-portlet__body" style="padding: 0;">
+                <div class="bd-example">
+                  <div
+                    id="carouselExampleCaptions"
+                    class="carousel"
+                    data-ride="false"
+                    data-interval="false"
+                  >
+                    <div class="carousel-inner" id="carousel-inner">
+                      <div class="carousel-item">
+                        <img
+                          src="./assets/media/bg/bg-9.jpg"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block">
+                          <button
+                            type="button"
+                            class="btn btn-elevate btn-elevate-air"
+                            data-skin="dark"
+                            data-toggle="kt-tooltip"
+                            data-original-title="클릭하여 원본 확인"
+                            style="background-color:rgba(0,0,0,0.55);color: white"
+                          >
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#carouselExampleCaptions"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <i
+                        class="flaticon2-fast-back"
+                        aria-hidden="true"
+                        style="color: red;font-size: 2rem"
+                      ></i>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#carouselExampleCaptions"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <i
+                        class="flaticon2-fast-next"
+                        aria-hidden="true"
+                        style="color: red;font-size: 2rem"
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 d-flex flex-column flex-grow-1">
+            <div
+              class="kt-portlet kt-portlet--bordered kt-portlet--head--noborder h-100 flex-grow-1"
+            >
+              <div class="kt-portlet__head kt-portlet__head--sm">
+                <div class="kt-portlet__head-label">
+                  <span class="kt-portlet__head-icon">
+                    <i class="la la-angle-double-right"></i>
+                  </span>
+                  <h3 class="kt-portlet__head-title">
+                    유지 보수 내역<small
+                      >자세한 내역을 보려면 항목을 클릭하세요</small
+                    >
+                  </h3>
+                </div>
+              </div>
+              <div class="kt-portlet__body kt-portlet__body--fit-y">
+                <div class="table-responsive-xl">
+                  <table
+                      class="table table-sm table-hover text-center"
+                      id="ol-modal-info-table"
+                  >
+                    <caption style="color: black;font-size: larger"></caption>
+                    <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">일자</th>
+                      <th scope="col">구분</th>
+                      <th scope="col">사유</th>
+                      <th scope="col">시공자명</th>
+                      <th scope="col">내용</th>
+                      <th scope="col">사진</th>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div
+                class="kt-portlet kt-portlet--bordered kt-portlet--head--noborder" id="ol-modal-info-cons"
+                style="display: none"
+            >
+              <div class="kt-portlet__head kt-portlet__head--sm">
+                <div class="kt-portlet__head-label">
+                  <span class="kt-portlet__head-icon">
+                    <i class="la la-angle-double-right"></i>
+                  </span>
+                  <h3 class="kt-portlet__head-title" id="ol-modal-info-cons-name">
+
+                  </h3>
+                </div>
+              </div>
+              <div class="kt-portlet__body">
+                <div class="kt-widget kt-widget--user-profile-2">
+                  <div class="kt-widget__body">
+                    <div class="kt-widget__item" style="padding: 0" id="ol-modal-info-cons-contact">
+                      <div class="kt-widget__contact">
+                        <span class="kt-widget__label">준공일자</span>
+                        <a href="#" class="kt-widget__data">1994-09-16</a>
+                      </div>
+                      <div class="kt-widget__contact">
+                        <span class="kt-widget__label">시공사</span>
+                        <a href="#" class="kt-widget__data">대진기술정보(주)</a>
+                      </div>
+                      <div class="kt-widget__contact">
+                        <span class="kt-widget__label">시공사연락처</span>
+                        <a href="#" class="kt-widget__data">44(76)34254578</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

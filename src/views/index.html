@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <!-- begin::Head -->
+  <head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="csrf-token" content="{{_csrfToken}}" />
+    <title>{{title.browser}}</title>
+
+    <!--begin::Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&display=swap&subset=korean"
+      rel="stylesheet"
+    />
+    <!--end::Fonts -->
+
+    <!--begin::Page Vendors Styles(used by this page) -->
+
+    <!-- Required Core stylesheet -->
+
+    <!--end::Page Vendors Styles -->
+
+    <!--begin::Global Theme Styles(used by all pages) -->
+    <link
+      href="assets/plugins/global/plugins.bundle.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+
+    <!--end::Global Theme Styles -->
+
+    <!--begin::Layout Skins(used by all pages) -->
+    <link
+      href="assets/css/skins/header/base/light.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/skins/header/menu/light.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/skins/brand/light.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/skins/aside/light.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--end::Layout Skins -->
+    <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+
+    <link rel="preconnect" href="http://map0.daumcdn.net" />
+    <link rel="preconnect" href="http://map1.daumcdn.net" />
+    <link rel="preconnect" href="http://map2.daumcdn.net" />
+    <link rel="preconnect" href="http://map3.daumcdn.net" />
+
+    <!-- polyfill -->
+  </head>
+
+  <!-- end::Head -->
+
+  <!-- begin::Body -->
+  <body
+    class="kt-page--loading-enabled kt-page--loading kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-aside--enabled kt-aside--fixed kt-aside--minimize kt-page--loading"
+  >
+    {{> page_loader}}
+
+    <!-- begin:: Page -->
+
+    <div class="kt-grid kt-grid--hor kt-grid--root">
+      <div
+        class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page"
+      >
+        {{> aside_base}}
+
+        <div
+          class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper"
+          id="kt_wrapper"
+        >
+          {{> header_base}}
+
+          <div
+            class="kt-content kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor"
+            id="kt_content"
+            style="padding-top: 0; padding-bottom: 0;"
+          >
+            {{> content_base_custom}} {{> content_modal_info}} {{>
+            content_modal_info_detail}} {{> content_modal_account}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end:: Page -->
+
+    {{> offcanvas_search}} {{> toolbar}}
+
+    <script>
+      var KTAppOptions = {
+        colors: {
+          state: {
+            brand: '#5d78ff',
+            dark: '#282a3c',
+            light: '#ffffff',
+            primary: '#5867dd',
+            success: '#34bfa3',
+            info: '#36a3f7',
+            warning: '#ffb822',
+            danger: '#fd3995'
+          },
+          base: {
+            label: ['#c5cbe3', '#a1a8c3', '#3d4465', '#3e4466'],
+            shape: ['#f0f3ff', '#d9dffa', '#afb4d4', '#646c9a']
+          }
+        }
+      };
+    </script>
+
+    <!-- end::Global Config -->
+
+    <!--begin::Global Theme Bundle(used by all pages) -->
+    <script
+      src="assets/plugins/global/plugins.bundle.js"
+      type="text/javascript"
+    ></script>
+    <script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
+
+    <!--end::Global Theme Bundle -->
+
+    <!--begin::Page Vendors(used by this page) -->
+
+    <!--end::Page Vendors -->
+
+    <!--begin::Page Scripts(used by this page) -->
+    <script
+      src="assets/js/pages/custom/user/list-datatables.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=77912cf5ac1874d37da3d7f600ecc9e2&libraries=services"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/js/pages/custom/webgis/map-base.js"
+      type="text/javascript"
+    ></script>
+    <!--end::Page Scripts -->
+  </body>
+
+  <!-- end::Body -->
+</html>

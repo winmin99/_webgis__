@@ -1,0 +1,54 @@
+<div style="margin: auto;">
+  <div
+      class="kt-quick-search kt-quick-search--inline kt-quick-search--result"
+      id="kt_quick_search_inline"
+  >
+    <form
+        class="kt-quick-search__form"
+        id="kakao-search-places"
+        autocomplete="off"
+    >
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"
+                class="kt-svg-icon">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect x="0" y="0" width="24" height="24"/>
+        <path
+            d="M5,10.5 C5,6 8,3 12.5,3 C17,3 20,6.75 20,10.5 C20,12.8325623 17.8236613,16.03566 13.470984,20.1092932 C12.9154018,20.6292577 12.0585054,20.6508331 11.4774555,20.1594925 C7.15915182,16.5078313 5,13.2880005 5,10.5 Z M12.5,12 C13.8807119,12 15,10.8807119 15,9.5 C15,8.11928813 13.8807119,7 12.5,7 C11.1192881,7 10,8.11928813 10,9.5 C10,10.8807119 11.1192881,12 12.5,12 Z"
+            fill="#000000" fill-rule="nonzero"/>
+    </g>
+          </svg></span>
+        </div>
+        <input
+            type="text"
+            class="form-control kt-quick-search__input"
+            placeholder="지명, 상호, 주소 검색..."
+            id="kakao-search-places-keyword"
+        />
+        <!--<div class="input-group-append">
+              <span class="input-group-text"
+                ><i class="la la-close kt-quick-search__close"></i
+              ></span>
+            </div>-->
+      </div>
+    </form>
+    <div
+        id="kt_quick_search_toggle"
+        data-toggle="dropdown"
+        data-offset="10px,10px"
+    ></div>
+    <div
+        class="dropdown-menu dropdown-menu-fit dropdown-menu-left dropdown-menu-anim dropdown-menu-lg"
+        style="position: absolute; transform: translate3d(5px, 60px, 0px); top: 0; left: 0; will-change: transform;"
+    >
+      <div
+          class="kt-quick-search__wrapper kt-scroll"
+          data-scroll="true"
+          data-height="350"
+          data-mobile-height="200"
+      ></div>
+    </div>
+  </div>
+</div>

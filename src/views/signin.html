@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <!-- begin::Head -->
+  <head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="csrf-token" content="{{_csrfToken}}" />
+    <title>{{title.browser}}</title>
+
+    <!--begin::Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&display=swap&subset=korean"
+      rel="stylesheet"
+    />
+
+    <!--end::Fonts -->
+
+    <!--begin::Page Custom Styles(used by this page) -->
+    <link
+      href="assets/css/pages/login/login-3.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--end::Page Custom Styles -->
+
+    <!--begin::Global Theme Styles(used by all pages) -->
+    <link
+      href="assets/plugins/global/plugins.bundle.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+
+    <!--end::Global Theme Styles -->
+
+    <!--begin::Layout Skins(used by all pages) -->
+    <link
+      href="assets/css/skins/header/base/light.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/skins/header/menu/light.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/skins/brand/dark.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/css/skins/aside/dark.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--end::Layout Skins -->
+    <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+  </head>
+
+  <!-- end::Head -->
+
+  <!-- begin::Body -->
+  <body
+    class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--enabled kt-subheader--fixed kt-subheader--solid kt-aside--enabled kt-aside--fixed kt-page--loading"
+  >
+    <!-- begin:: Page -->
+    <div class="kt-grid kt-grid--ver kt-grid--root">
+      <div
+        class="kt-grid kt-grid--hor kt-grid--root kt-login kt-login--v3 kt-login--signin"
+        id="kt_login"
+      >
+        <div
+          class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor"
+          style="background-image: url(assets/media/bg/bg-3.jpg);"
+        >
+          <div class="kt-grid__item kt-grid__item--fluid kt-login__wrapper">
+            <div class="kt-login__container">
+              <div class="kt-login__logo">
+                <a href="#">
+                  <img src="assets/media/logos/{{company}}.png" />
+                </a>
+              </div>
+              <div class="kt-login__signin">
+                <div class="kt-login__head">
+                  <h3 class="kt-login__title" style="font-size: xx-large;">
+                    {{title.page}}
+                  </h3>
+                  <div class="kt-login__desc" style="">
+                    아이디와 비밀번호를 입력해주세요.
+                  </div>
+                </div>
+                <form id="kt-form-signin" class="kt-form" action="">
+                  <div class="input-group">
+                    <input
+                      id="form-username"
+                      class="form-control"
+                      type="text"
+                      placeholder="아이디를 입력하세요"
+                      name="LoginName"
+                      autocomplete="on"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      class="form-control"
+                      type="password"
+                      placeholder="비밀번호를 입력하세요"
+                      name="LoginKey"
+                    />
+                  </div>
+                  <div class="row kt-login__extra">
+                    <div class="col">
+                      <label class="kt-checkbox">
+                        <input type="checkbox" name="remember" /> 아이디 저장
+                        <span></span>
+                      </label>
+                    </div>
+                    <div class="col kt-align-right">
+                      <a
+                        href="javascript:;"
+                        id="kt_login_reset"
+                        class="kt-login__link"
+                        >비밀번호 변경</a
+                      ><small>&nbsp;또는</small>
+                      <a
+                        href="javascript:;"
+                        id="kt_login_forgot"
+                        class="kt-login__link"
+                        >초기화</a
+                      >
+                    </div>
+                  </div>
+                  <div class="row kt-login__actions">
+                    <div class="col">
+                      <button
+                        id="kt_login_signin_submit"
+                        class="btn btn-brand btn-elevate kt-login__btn-primary"
+                      >
+                        로그인
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="kt-login__signup">
+                <div class="kt-login__head">
+                  <h3 class="kt-login__title">신규 계정 등록</h3>
+                </div>
+                <form id="kt-form-signup" class="kt-form" action="">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="UserLastName">성</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="UserLastName"
+                        placeholder="성"
+                      />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="UserFirstName">이름</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="UserFirstName"
+                        placeholder="이름"
+                      />
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="LoginNameNew">아이디</label>
+                    <div class="input-group">
+                      <div
+                        class="input-group-prepend"
+                        style="
+                          margin-top: 1.5rem;
+                          background-color: rgba(235, 237, 242, 0.8);
+                          border-radius: 4px 0 0 4px;
+                        "
+                      >
+                        <button
+                          type="button"
+                          class="btn"
+                          id="kt_login_signup_check_duplicate"
+                        >
+                          중복확인
+                        </button>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="kt-login__signup-loginname"
+                        name="LoginNameNew"
+                        placeholder="아이디 입력 (4~20자리)"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="LoginKeyNew">비밀번호</label>
+                      <input
+                        id="kt-login__signup-loginkey"
+                        type="password"
+                        class="form-control"
+                        name="LoginKeyNew"
+                        placeholder="비밀번호 (9~20자리)"
+                      />
+                      <div id="passwordHelpBlock" class="form-text text-muted">
+                        영문자와 숫자, 특수문자를 혼합
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="rLoginKeyNew">&nbsp;</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        name="rLoginKeyNew"
+                        placeholder="비밀번호 재입력"
+                      />
+                      <div id="passwordHelpBlock" class="form-text text-muted">
+                        영문자와 숫자, 특수문자를 혼합
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="EmailNew">이메일</label>
+                    <div class="input-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="EmailNew"
+                        placeholder="이메일 주소 입력"
+                      />
+                    </div>
+                    <div class="form-text text-muted">
+                      비밀번호 분실시 관리자에게 비밀번호 초기화를 요청하기 위해
+                      사용됩니다
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="CompanyName">기관</label>
+                      <select class="custom-select d-block" name="CompanyName">
+                        <option value="{{company}}">{{company}}</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="RoleName">부서</label>
+                      <select class="custom-select d-block" name="RoleName">
+                        <option value="상수">상수</option>
+                        <option value="하수">하수</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div style="text-align: end;">
+                    <button
+                      class="btn btn-brand btn-elevate"
+                      id="kt_login_signup_submit"
+                    >
+                      등록
+                    </button>
+                    <button
+                      id="kt_login_signup_cancel"
+                      class="btn btn-light btn-elevate kt-login__btn-secondary"
+                    >
+                      취소
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="kt-login__reset">
+                <div class="kt-login__head">
+                  <h3 class="kt-login__title">
+                    비밀번호 변경
+                  </h3>
+                  <div class="kt-login__desc">
+                    비밀번호를 변경할 계정과 새 비밀번호를 입력해주세요.
+                  </div>
+                </div>
+                <form id="kt-form-reset" class="kt-form" action="">
+                  <div class="input-group">
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="아이디를 입력하세요"
+                      name="OldLoginName"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      class="form-control"
+                      type="password"
+                      placeholder="기존 비밀번호를 입력하세요"
+                      name="OldLoginKey"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      id="kt-login__signup-loginkey-new"
+                      class="form-control"
+                      type="password"
+                      placeholder="새 비밀번호 (9~20자리 영문자, 숫자, 특수문자를 혼합)"
+                      name="NewLoginKey"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      class="form-control"
+                      type="password"
+                      placeholder="새 비밀번호 재입력"
+                      name="rNewLoginKey"
+                    />
+                  </div>
+                  <div class="kt-login__actions">
+                    <button
+                      id="kt_login_reset_submit"
+                      class="btn btn-brand btn-danger btn-elevate kt-login__btn-primary"
+                    >
+                      변경</button
+                    >&nbsp;&nbsp;
+                    <button
+                      id="kt_login_reset_cancel"
+                      class="btn btn-light btn-elevate kt-login__btn-secondary"
+                    >
+                      취소
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="kt-login__forgot">
+                <div class="kt-login__head">
+                  <h3 class="kt-login__title">
+                    비밀번호 초기화
+                  </h3>
+                  <div class="kt-login__desc">
+                    비밀번호를 초기화 할 계정과 이메일을 입력해주세요.
+                  </div>
+                </div>
+                <form id="kt-form-forgot" class="kt-form" action="">
+                  <div class="input-group">
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="아이디를 입력하세요"
+                      name="LoginName"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="이메일을 입력하세요"
+                      name="Email"
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="kt-login__actions">
+                    <button
+                      id="kt_login_forgot_submit"
+                      class="btn btn-brand btn-danger btn-elevate kt-login__btn-primary"
+                    >
+                      초기화</button
+                    >&nbsp;&nbsp;
+                    <button
+                      id="kt_login_forgot_cancel"
+                      class="btn btn-light btn-elevate kt-login__btn-secondary"
+                    >
+                      취소
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="kt-login__account">
+                <a
+                  href="javascript:;"
+                  id="kt_login_signup"
+                  class="kt-login__account-link"
+                  >신규 계정 등록</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end:: Page -->
+
+    <!-- begin::Global Config(global config for global JS sciprts) -->
+    <script>
+      var KTAppOptions = {
+        colors: {
+          state: {
+            brand: '#5d78ff',
+            dark: '#282a3c',
+            light: '#ffffff',
+            primary: '#5867dd',
+            success: '#34bfa3',
+            info: '#36a3f7',
+            warning: '#ffb822',
+            danger: '#fd3995'
+          },
+          base: {
+            label: ['#c5cbe3', '#a1a8c3', '#3d4465', '#3e4466'],
+            shape: ['#f0f3ff', '#d9dffa', '#afb4d4', '#646c9a']
+          }
+        }
+      };
+    </script>
+
+    <!-- end::Global Config -->
+
+    <!--begin::Global Theme Bundle(used by all pages) -->
+    <script
+      src="assets/plugins/global/plugins.bundle.js"
+      type="text/javascript"
+    ></script>
+    <script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
+
+    <!--end::Global Theme Bundle -->
+
+    <!--begin::Page Scripts(used by this page) -->
+    <script
+      src="assets/js/pages/custom/login/login-general.js"
+      type="text/javascript"
+    ></script>
+
+    <!--end::Page Scripts -->
+  </body>
+
+  <!-- end::Body -->
+</html>

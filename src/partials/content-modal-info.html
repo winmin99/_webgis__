@@ -1,0 +1,107 @@
+<!--Begin:: Chat-->
+<div
+  class="modal fade- modal-sticky-info"
+  id="kt_chat_modal"
+  role="dialog"
+  data-backdrop="false"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="kt-chat">
+        <div class="kt-portlet kt-portlet--last">
+          <div class="kt-portlet__head">
+            <div class="kt-chat__head ">
+              <div class="kt-chat__left">
+                <div class="kt-chat__label">
+                  <a href="#" class="kt-chat__title" id="ol-info-title"></a>
+                  <span class="kt-chat__status">
+                    <span
+                      class="kt-badge kt-badge--dot kt-badge--xl kt-badge--success"
+                      id="ol-info-usage-badge"
+                    ></span
+                    ><span id="ol-info-usage-text"></span>
+                  </span>
+                </div>
+              </div>
+              <div class="kt-chat__right">
+                <button
+                  type="button"
+                  class="btn btn-clean btn-sm btn-icon"
+                  data-dismiss="modal"
+                  id="ol-info-close"
+                >
+                  <i class="flaticon2-cross"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="kt-portlet__body"
+            style="padding: 0;display: inherit;flex-direction: inherit"
+          >
+            <div
+              class="kt-scroll kt-scroll--pull"
+              data-height="300"
+              data-mobile-height="225"
+              style="margin: 0;padding: 0"
+            >
+              <div class="kt-section">
+                <div class="kt-section__content" id="kt-section__content">
+                  <table class="table table-striped">
+                    <tbody id="ol-info-rows"></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="kt-portlet__foot">
+            <div
+              class="kt-chat__toolbar flex-container space-between"
+              style="padding: 0 5px;display: flex;justify-content: space-between"
+            >
+              <button
+                class="btn btn-outline-secondary"
+                data-toggle="kt-tooltip"
+                title="화면 가운데로 이동"
+                id="ol-info-location"
+              >
+                <i class="la la-map-marker" style="padding: 0"></i>
+              </button>
+              <div class="btn-group btn-group-toggle" data-toggle="buttons" id="ol-info-button-group">
+                <!--
+                <button class="btn btn-outline-secondary" data-toggle="kt-tooltip" title="메모 입력" type="button"><i
+                    class="la la-comment" style="padding: 0"></i>
+                </button>
+                <button class="btn btn-outline-secondary" data-toggle="kt-tooltip" title="즐겨찾기 등록" type="button"><i
+                    class="la la-star-o" style="padding: 0"></i></button>
+                -->
+                {{! TODO: --급수전: 급수전관리카드/오수받이:
+                배수설비설치대장/밸브:현황사진/배수지,가압장,유량계:현황사진
+                --}}
+                <button
+                  class="btn btn-outline-secondary"
+                  id="ol-info-history"
+                  type="button"
+                  value="viw_web_wutl_ht_img"
+                  data-toggle="button"
+                >
+                  <i class="la la-file-text-o" style="padding: 0;"></i>보수내역
+                </button>
+                <button
+                  class="btn btn-outline-secondary"
+                  id="ol-info-photo"
+                  type="button"
+                  data-toggle="button"
+                >
+                  <i class="la la-file-photo-o" style="padding: 0;"></i>사진보기
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--ENd:: Chat-->

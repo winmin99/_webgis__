@@ -1,0 +1,53 @@
+<!--begin: Head -->
+<div
+  class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x"
+  style="background-image: url(assets/media/misc/bg-1.jpg);"
+>
+  <div class="kt-user-card__avatar">
+    <!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
+    <span
+      class="kt-badge kt-badge--lg kt-badge--rounded kt-badge--bold kt-font-success"
+      >{{user.rolename}}</span
+    >
+  </div>
+  <div class="kt-user-card__name">
+    {{user.name}}
+  </div>
+</div>
+
+<!--end: Head -->
+
+<!--begin: Navigation -->
+<div class="kt-notification">
+  {{#if isAdmin}}
+  <a href="#" class="kt-notification__item">
+    <div class="kt-notification__item-icon">
+      <i class="flaticon2-calendar-3 kt-font-success"></i>
+    </div>
+    <div class="kt-notification__item-details" id="kt-notification__item-details-account">
+      <div class="kt-notification__item-title kt-font-bold">
+        계정 관리자
+      </div>
+      <div class="kt-notification__item-time">
+        계정 정보와 설정을 확인합니다
+      </div>
+    </div>
+  </a>
+  {{/if}}
+  <div class="kt-notification__custom kt-space-between">
+    <a
+      href="/auth/signout"
+      id="session-logout"
+      class="btn btn-label btn-label-brand btn-sm btn-bold"
+      >로그 아웃</a
+    >
+    <a
+      href="/download/manual"
+      target="_blank"
+      class="btn btn-clean btn-sm btn-bold"
+      >사용자 매뉴얼</a
+    >
+  </div>
+</div>
+
+<!--end: Navigation -->

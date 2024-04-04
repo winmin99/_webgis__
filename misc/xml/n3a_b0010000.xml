@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" xmlns:se="http://www.opengis.net/se"
+                       xmlns:ogc="http://www.opengis.net/ogc">
+  <NamedLayer>
+    <se:Name>building</se:Name>
+    <UserStyle>
+      <se:Name>building</se:Name>
+      <se:FeatureTypeStyle>
+        <se:Rule>
+          <se:Name>general</se:Name>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#f9f8f4</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#505050</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kind</ogc:PropertyName>
+                <ogc:Literal>BDK004</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#e0e6ea</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#505050</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.1</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kind</ogc:PropertyName>
+                <ogc:Literal>BDK005</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kind</ogc:PropertyName>
+                <ogc:Literal>BDK006</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kind</ogc:PropertyName>
+                <ogc:Literal>BDK007</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>kind</ogc:PropertyName>
+                <ogc:Literal>BDK008</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+            </ogc:Or>
+          </ogc:Filter>
+          <se:PolygonSymbolizer>
+            <se:Fill>
+              <se:SvgParameter name="fill">#f9f8f4</se:SvgParameter>
+            </se:Fill>
+            <se:Stroke>
+              <se:SvgParameter name="stroke">#505050</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">5 5 5 5</se:SvgParameter>
+            </se:Stroke>
+          </se:PolygonSymbolizer>
+        </se:Rule>
+        <se:Rule>
+          <se:TextSymbolizer>
+            <se:Geometry>
+              <ogc:Function name="centroid">
+                <ogc:PropertyName>geom</ogc:PropertyName>
+              </ogc:Function>
+            </se:Geometry>
+            <se:Label>
+              <ogc:PropertyName>name</ogc:PropertyName>
+            </se:Label>
+            <se:Font>
+              <se:SvgParameter name="font-family">맑은 고딕</se:SvgParameter>
+              <se:SvgParameter name="font-size">12</se:SvgParameter>
+            </se:Font>
+            <se:LabelPlacement>
+              <se:PointPlacement>
+                <se:AnchorPoint>
+                  <se:AnchorPointX>0.5</se:AnchorPointX>
+                  <se:AnchorPointY>0.5</se:AnchorPointY>
+                </se:AnchorPoint>
+              </se:PointPlacement>
+            </se:LabelPlacement>
+            <se:Halo>
+              <se:Radius>2</se:Radius>
+              <se:Fill>
+                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+              </se:Fill>
+            </se:Halo>
+            <se:VendorOption name="conflictResolution">true</se:VendorOption>
+          </se:TextSymbolizer>
+        </se:Rule>
+      </se:FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

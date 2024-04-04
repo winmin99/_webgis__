@@ -1,0 +1,134 @@
+CREATE SCHEMA IF NOT EXISTS private;
+
+ALTER TABLE public.cd_acq
+    SET SCHEMA private;
+ALTER TABLE public.cd_aeg
+    SET SCHEMA private;
+ALTER TABLE public.cd_aeh
+    SET SCHEMA private;
+ALTER TABLE public.cd_apl
+    SET SCHEMA private;
+ALTER TABLE public.cd_aps
+    SET SCHEMA private;
+ALTER TABLE public.cd_bls
+    SET SCHEMA private;
+ALTER TABLE public.cd_brc
+    SET SCHEMA private;
+ALTER TABLE public.cd_cns
+    SET SCHEMA private;
+ALTER TABLE public.cd_cnt
+    SET SCHEMA private;
+ALTER TABLE public.cd_cov
+    SET SCHEMA private;
+ALTER TABLE public.cd_crs
+    SET SCHEMA private;
+ALTER TABLE public.cd_cst
+    SET SCHEMA private;
+ALTER TABLE public.cd_ctt
+    SET SCHEMA private;
+ALTER TABLE public.cd_dcw
+    SET SCHEMA private;
+ALTER TABLE public.cd_dps
+    SET SCHEMA private;
+ALTER TABLE public.cd_for
+    SET SCHEMA private;
+ALTER TABLE public.cd_ftr
+    SET SCHEMA private;
+ALTER TABLE public.cd_gag
+    SET SCHEMA private;
+ALTER TABLE public.cd_gcw
+    SET SCHEMA private;
+ALTER TABLE public.cd_his
+    SET SCHEMA private;
+ALTER TABLE public.cd_ivt
+    SET SCHEMA private;
+ALTER TABLE public.cd_jht
+    SET SCHEMA private;
+ALTER TABLE public.cd_lad
+    SET SCHEMA private;
+ALTER TABLE public.cd_lep
+    SET SCHEMA private;
+ALTER TABLE public.cd_lhw
+    SET SCHEMA private;
+ALTER TABLE public.cd_lit
+    SET SCHEMA private;
+ALTER TABLE public.cd_lrs
+    SET SCHEMA private;
+ALTER TABLE public.cd_mah
+    SET SCHEMA private;
+ALTER TABLE public.cd_mhs
+    SET SCHEMA private;
+ALTER TABLE public.cd_mng
+    SET SCHEMA private;
+ALTER TABLE public.cd_mof
+    SET SCHEMA private;
+ALTER TABLE public.cd_mop
+    SET SCHEMA private;
+ALTER TABLE public.cd_mth
+    SET SCHEMA private;
+ALTER TABLE public.cd_off
+    SET SCHEMA private;
+ALTER TABLE public.cd_oug
+    SET SCHEMA private;
+ALTER TABLE public.cd_pga
+    SET SCHEMA private;
+ALTER TABLE public.cd_pms
+    SET SCHEMA private;
+ALTER TABLE public.cd_pro
+    SET SCHEMA private;
+ALTER TABLE public.cd_prs
+    SET SCHEMA private;
+ALTER TABLE public.cd_pty
+    SET SCHEMA private;
+ALTER TABLE public.cd_rep
+    SET SCHEMA private;
+ALTER TABLE public.cd_saa
+    SET SCHEMA private;
+ALTER TABLE public.cd_sac
+    SET SCHEMA private;
+ALTER TABLE public.cd_sae
+    SET SCHEMA private;
+ALTER TABLE public.cd_sag
+    SET SCHEMA private;
+ALTER TABLE public.cd_sam
+    SET SCHEMA private;
+ALTER TABLE public.cd_sba
+    SET SCHEMA private;
+ALTER TABLE public.cd_sbb
+    SET SCHEMA private;
+ALTER TABLE public.cd_sbc
+    SET SCHEMA private;
+ALTER TABLE public.cd_sbd
+    SET SCHEMA private;
+ALTER TABLE public.cd_sbe
+    SET SCHEMA private;
+ALTER TABLE public.cd_sbi
+    SET SCHEMA private;
+ALTER TABLE public.cd_sbj
+    SET SCHEMA private;
+ALTER TABLE public.cd_sbs
+    SET SCHEMA private;
+ALTER TABLE public.cd_scw
+    SET SCHEMA private;
+ALTER TABLE public.cd_smu
+    SET SCHEMA private;
+ALTER TABLE public.cd_som
+    SET SCHEMA private;
+ALTER TABLE public.cd_soo
+    SET SCHEMA private;
+ALTER TABLE public.cd_spt
+    SET SCHEMA private;
+ALTER TABLE public.cd_stt
+    SET SCHEMA private;
+ALTER TABLE public.cd_tnk
+    SET SCHEMA private;
+ALTER TABLE public.cd_use
+    SET SCHEMA private;
+ALTER TABLE public.cd_vmt
+    SET SCHEMA private;
+ALTER TABLE public.cd_wgw
+    SET SCHEMA private;
+ALTER TABLE public.cd_wrw
+    SET SCHEMA private;
+ALTER TABLE public.cd_wsr
+    SET SCHEMA private;
